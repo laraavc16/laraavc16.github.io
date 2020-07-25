@@ -1,0 +1,30 @@
+body {
+    background-color: aquamarine;
+}
+#t2 {
+    color: black
+}
+#t3 {
+    color: rebeccapurple;
+}
+
+p {
+    color:black;
+}
+#caixa{
+    background-color: rgb(238, 230, 230);
+    border: 5px rgb(23, 3, 78) solid;
+    padding: 10px ;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    margin: 50px;
+
+}
+#caixa2{
+    background-color: blanchedalmond;
+    border: 5px blue solid;
+    padding: 20px;
+}
+.fundo{
+    background-color: blue;
+}
