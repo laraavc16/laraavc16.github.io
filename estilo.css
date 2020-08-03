@@ -1,0 +1,114 @@
+html, body{
+    margin: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height:10vh;
+    width: 100%;
+    position: fixed;
+}
+#logo{
+width: 6vw;
+position: absolute;
+top: 7px;
+margin-left: 5%;
+}
+#cardapio{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 10 10 10 10;
+    margin-top: 0px;
+}
+li:hover{
+    background-color: darkgreen;
+}
+#capa{
+    background: url("imgs/capa2.png");
+    background-position:  center center;
+    background-size: cover;
+    height: 100%;
+    margin-bottom: 3vh;
+}
+#acao{
+    text-align: center;
+    border: white solid;
+    padding: 10px 10px 10px 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 90%;
+    left: 42vw;
+    width: 10vw;
+}
+
+#acao a{
+    color: white;
+    text-decoration:none;
+}
+.icone{
+    width: 80px;
+}
+#agenda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.coluna{
+    width: 45vw;
+    height: 45vh;
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    width: 10vw;
+}
+.justificado{
+    text-align: justify;
+}
+.centralizado{
+    text-align: center;
+}
+.destaque{
+    background-color: #f3faf3;
+}
+#ods2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 120vh; 
+}
+.colunamaior{
+    width: 60vw;
+}  
+.colunamenor{
+    width: 30vw;
+}
+#video{
+    padding-top: 50px;
+}
+#jornada{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+.descricao{
+    font-size: 11px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+}
