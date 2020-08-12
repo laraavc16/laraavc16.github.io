@@ -1,0 +1,228 @@
+html, body{
+    margin: 0;
+}
+
+header{
+    background-color:#C56A21;
+    color: white;
+    height:64px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+    width: 93px;
+    position: absolute;
+    top: 7px;
+    margin-left: 5%;
+}
+
+#cardapio{
+    float: right;
+    list-style: none;
+    margin-top: 0px;
+}
+
+#cardapio a{
+    color: white;
+    font-family:'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    text-decoration:none;
+}
+
+li {
+    float: left;
+    padding: 20px 10px 20px 10px;
+}
+
+.selecao:hover{
+    background-color:#DBB72A;
+}
+
+#capa{
+    background: url("imgs/capa.png");
+    background-position:  center center;
+    background-size: cover;
+    height: 100%;
+}
+
+#titulo{
+    color: white;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 100px;
+    letter-spacing: 4px;
+    text-shadow:#C2831A 10px 7px 3px;
+    line-height: 0.6;
+}
+
+#subtitulo{
+    color: #C56A21;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px ;
+    font-weight: bolder;
+    text-shadow: 2px 2px #C2831A;
+    letter-spacing: 2px;
+}
+
+#acao{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size:15px ; 
+    text-shadow: 1px 1px rgb(194, 194, 193);
+    letter-spacing: 0.5px;
+    padding-top: 8%;
+}
+
+#acao a{
+    color: white;
+    text-decoration:none;
+    border: 3.5px white solid;
+    padding: 10px 20px 10px 20px;
+   
+}
+
+section{
+    padding-top: 6%;
+}
+
+#agenda{
+    width: 100%;
+    height: 50%;
+    line-height: 1.8;
+}
+
+.destaque{
+    background-color: #f3faf3;
+}
+
+.coluna{
+    padding: 0 2%;
+    float: left;
+    position: relative;
+}
+
+.dois{
+    width: 45%;
+}
+
+.titulos{
+    font-family: 'Patua One', cursive;
+    color: #C2831A;
+    font-size: 33.5px;
+    text-transform: uppercase;
+    margin: 0 30px;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+.estilotexto{
+    color: #755D35;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.info{   
+    text-decoration: none;
+    color:#C2831A ;
+    font-style: italic;
+}
+
+#ods{
+    width: 100%;
+    height: 55%;
+}
+
+.espaco{
+    padding-bottom: 1%;
+}
+
+.descricao{
+    color: #755D35;
+    font-size: 11px;
+    font-weight: bolder;
+    font-family: 'Oswald', sans-serif;;
+    font-style: inherit;
+}
+
+.nove{
+    width: 10.11%;
+    padding: 0.5%;
+}
+
+.oito{
+    width: 11.5%;
+    padding: 0.5%;
+}
+
+.icone{
+    width: 80px;
+}
+
+#ods2{
+    width: 100%;
+    height: 150%;
+}
+
+.justificado{
+    text-align: justify;
+}
+
+.textodestaque{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #C2831A;
+} 
+
+#ods2 iframe{
+   padding-top: 3%;
+   padding-bottom: 0.5%;
+}
+
+#jornada{
+    width: 100%;
+    height: 110%;
+}
+
+.citacoes{
+    font-family: 'Patua One', cursive;
+    color: #C2831A;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-decoration-style: dashed;
+    padding-top: 20px;
+}
+
+#projeto{
+    width: 100%;
+    height: 135%;
+}
+
+.tres{
+    width: 32%;
+    padding: 0 0.5%;
+}
+
+#sobre img{
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+footer{
+    background-color: #CECF32;
+    float: left;
+    width: 100%;
+    height: 15%;
+    color: white;
+    padding-top: 3% ;
+}
+
+
+
+
